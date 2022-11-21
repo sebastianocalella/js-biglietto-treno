@@ -28,3 +28,12 @@ main{
     line-height: 1.8rem;
     color: lightgray;
 }
+
+main div{
+    width: fit-content;
+    margin: 4rem auto;
+}
+
+main i{
+    font-size: 24rem;
+}
