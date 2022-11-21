@@ -26,9 +26,9 @@ else {
     } else {
         finalPrice = price;
     }
+    finalPrice = finalPrice.toFixed(2);
+    document.getElementById('price').innerHTML = 'L\'ammontare dei costi del utente per un percorso di questo tipo è di: ' + finalPrice + ' €';
 }
 
 
-finalPrice = finalPrice.toFixed(2);
 
-document.getElementById('price').innerHTML = 'L\'ammontare dei costi del utente per un percorso di questo tipo è di: ' + finalPrice + ' €';
